@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mkdir -p dati/dati-regioni
+wget -q -O dati/dati-regioni/dpc-covid19-ita-regioni.csv "https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv"
